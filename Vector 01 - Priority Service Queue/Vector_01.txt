@@ -1,0 +1,30 @@
+   Construa um vetor que simule uma fila de atendimento em um 
+banco, com prioridade de atendimento a idosos. O vetor deve ter 20 elementos 
+para esta implementação. Cada elemento deve conter o nome do indivíduo, e 
+sua idade, ou seja, será um vetor de registros (struct). As funções deste 
+programa devem ser as seguintes:
+	• Novo atendimento: operação de inserção de cada indivíduo onde deve 
+ser solicitado o nome e a idade. A inserção deve ocorrer uma por vez. 
+Após cada inserção o programa deve retornar ao menu de opções. 
+Assim como uma fila de banco, um novo indivíduo que entra no vetor, 
+NÃO SENDO IDOSO, deve entrar no final da fila, não importando a 
+idade. Caso ele seja idoso (idade >= 60 anos) este deve entrar no início 
+da fila. Caso já se tenham idosos na fila, o novo idoso deve entrar após 
+o ÚLTIMO idoso da fila. Caso o vetor não suporte mais inserção, deve 
+mostrar uma mensagem de erro;
+	• Atendimento realizado: Esta operação é como se uma pessoa da fila 
+fosse atendida. A pessoa atendida SEMPRE é a PRIMEIRA da fila, ou 
+seja, a remoção deve ocorrer no primeiro elemento da fila, e informar ao 
+usuário qual pessoa, e qual idade, está sendo atendida. Caso o vetor não 
+possua mais elementos para serem atendidos, o programa deve 
+apresentar uma mensagem de erro;
+	• Listar indivíduos: o programa deve apresentar os nomes e idades de 
+todos os elementos armazenados, na ordem com que estes se encontram 
+no vetor;
+	• Sair: o programa encerra sua execução
+
+   Build an array that simulates a bank service queue, with priority given to elderly customers. The array must have 20 elements for this implementation. Each element must contain the individual's name and age, that is, it will be an array of records (struct). The functions of this program should be as follows:
+• New service: the operation to insert each individual where their name and age must be requested. The insertion should occur one at a time. After each insertion, the program should return to the options menu. Like a bank queue, a new individual who enters the array, IF NOT ELDERLY, must enter at the end of the queue, regardless of age. If they are elderly (age >= 60), they must enter at the beginning of the queue. If there are already elderly people in the queue, the new elderly person should enter after the LAST elderly in the queue. If the array can no longer accommodate new entries, an error message should be displayed;
+• Service performed: This operation simulates a person being attended to in the queue. The person attended is ALWAYS the FIRST in the queue, meaning the removal must occur at the first element of the queue, and the user must be informed which person and what age is being attended. If the array has no more elements to attend, the program should present an error message;
+• List individuals: the program must display the names and ages of all stored elements, in the order they are arranged in the array;
+• Exit: the program ends its execution.

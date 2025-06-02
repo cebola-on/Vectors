@@ -1,0 +1,36 @@
+   Implemente um vetor que funcione como um registro de 
+funcionários de uma empresa, mas que armazene indivíduos de 3 hierarquias 
+diferentes: gerentes, administrativos e técnicos. Todas os elementos das 3 
+hierarquias devem estar trabalhando dentro de um mesmo vetor. O vetor deve 
+ser construído com 21 posições, sendo 7 posições separadas para cada 
+hierarquia (0-6 / 7-13 / 14-20). O vetor NÃO PODE conter dados de 
+elementos de diferentes hierarquias embaralhados. Cada hierarquia existe a 
+cada 7 posições do vetor. O vetor pode ser construído somente com nomes. 
+Aqui a ideia é como se controlasse 3 vetores dentro de um único vetor. Um 
+exemplo está a seguir:
+Gerentes Administrativos Técnicos
+0   1   2 3 4 5 6 7      8        9     10 11 12 13 14       15    16   17 18 19 20 
+Max João          Marcos Mauricio Luana             Cristina Maria Paulo
+As funcionalidades são as seguintes:
+	• Inserção: a função de inserção deve solicitar para QUAL hierarquia o 
+indivíduo a ser cadastrado pertence, e daí então solicitar o nome a ser 
+inserido. A inserção, em cada hierarquia deve sempre ocorrer no final 
+dos elementos DAQUELA hierarquia. Caso a hierarquia já esteja 
+completa, o programa deve enviar uma mensagem de erro;
+	• Listar Servidores por Hierarquia: o programa deve solicitar qual 
+hierarquia se deseja imprimir seus usuários. Após a hierarquia ser 
+escolhida, o programa deve apresentar todos os dados do vetor daquela 
+hierarquia;
+	• Listas todos os Servidores: o programa imprime todos os elementos do 
+vetor, divididos por hierarquia, e informa todos os dados de cada 
+elemento como o nome e a hierarquia.
+
+
+   Implement an array that works as a company employee registry but stores individuals from 3 different hierarchies: managers, administrative staff, and technicians. All elements from the 3 hierarchies must work within the same array. The array must be built with 21 positions, with 7 positions allocated for each hierarchy (0-6 / 7-13 / 14-20). The array CANNOT contain data from different hierarchies mixed together. Each hierarchy occupies its specific 7 positions within the array. The array can be constructed using only names. Here the idea is as if controlling 3 arrays within a single array. An example is as follows:
+Managers Administrative Technicians
+0   1   2 3 4 5 6 7      8        9     10 11 12 13 14       15    16   17 18 19 20 
+Max João          Marcos Mauricio Luana             Cristina Maria Paulo
+The functionalities are as follows:
+• Insertion: the insertion function must ask which hierarchy the individual to be registered belongs to, and then request the name to be inserted. The insertion in each hierarchy must always occur at the end of the elements of THAT hierarchy. If the hierarchy is already full, the program must send an error message;
+• List Employees by Hierarchy: the program must ask which hierarchy the user wants to print. Once the hierarchy is chosen, the program must display all the data of that hierarchy's section in the array;
+• List All Employees: the program prints all array elements, divided by hierarchy, and provides all data of each element, such as name and hierarchy.

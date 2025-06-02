@@ -1,0 +1,30 @@
+   Implemente um programa que simule, mesmo que de maneira 
+rudimentar, como um Sistema Operacional trabalha na execução de seus 
+processos. O programa primeiramente solicita um valor que servirá como o 
+tempo que o processador tem disponível para processar algo (temp). Após este 
+valor inserido o programa abre um menu que solicita que se entrem novos 
+processos (aplicativos) onde para cada novo processo deve ser inserido um 
+novo tempo, que servirá como tempo de execução do aplicativo em questão. 
+Os processos podem ser armazenados em um vetor estático de no máximo 10 
+processos. As funcionalidades são as seguintes:
+	• Novo processo: a inserção de um novo processo deve sempre ocorrer ao 
+final da lista de processos já existentes no vetor de processos. Para cada 
+novo processo a ser inserido deve ser solicitado que digite seu tempo de 
+processamento. Após a inserção de um novo processo o programa deve 
+retornar ao menu de opções;
+	• Nova iteração: esta funcionalidade é como se o processador cedesse seu 
+tempo de processamento (temp) para a execução de cada processo na 
+lista de processos. Isso quer dizer que os tempos de cada processo no 
+vetor de processos vão ser decrescidos pelo valor do tempo de 
+processamento do processador. Caso o processo tenha chegado a seu 
+valor de tempo zero, ou menor do que zero, este processo foi terminado 
+e deve ser removido da lista de processos E INFORMADO que foi 
+concluído.
+	• Sair: o programa é fechado.
+
+
+
+Implement a program that simulates, even in a rudimentary way, how an Operating System works in the execution of its processes. The program first requests a value that will serve as the time the processor has available to process something (temp). After this value is entered, the program opens a menu requesting new processes (applications), where for each new process a new time must be entered, representing the execution time of that application. The processes can be stored in a static array of up to 10 processes. The functionalities are as follows:
+• New process: the insertion of a new process must always occur at the end of the existing processes in the array. For each new process, the program must request its processing time. After inserting a new process, the program must return to the options menu;
+• New iteration: this functionality acts as if the processor grants its processing time (temp) to the execution of each process in the array. This means that the times of each process in the array will be decreased by the processor's processing time. If a process's time reaches zero or less, it is considered completed and must be removed from the process array AND REPORTED as completed;
+• Exit: the program closes.

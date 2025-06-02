@@ -1,0 +1,50 @@
+   Implemente um vetor de 15 valores inteiros com as seguintes 
+funcionalidades:
+	• Inserção ordenada: a inserção deve ocorrer um elemento por vez, de 
+forma já ordenada. O programa deve tratar a inserção para o caso de o 
+vetor já estar cheio. Após a inserção de um elemento o programa deve 
+retornar ao menu de opções. O vetor deve ser distinto, ou seja, não deve 
+possuir elementos iguais;
+	• Remoção: o programa deve solicitar um valor a ser removido. Deve ser 
+tratado o problema de remoção de um vetor vazio, e caso o valor 
+solicitado não exista no vetor;
+	• Busca Trinária: assim como busca binária, similar à busca trinária deve, 
+a cada verificação, se dividir o vetor em 3 conjuntos, fazer-se as 
+comparações necessárias, e descobrir em que conjunto se encontra o 
+valor a ser buscado. A busca termina quando se encontrar ou não o 
+elemento;
+	• Busca exponencial: este algoritmo consiste em duas fases. A primeira 
+fase se determina um intervalo em que valor que se quer pesquisar se 
+encontra. Na segunda fase é realizada uma busca binária neste intervalo. 
+Na primeira fase o algoritmo procura o expoente j, onde o valor de 𝟐
+𝒋
+é 
+maior do que a chave de pesquisa. Este valor 𝟐
+𝒋
+torna-se o limite 
+superior, e o valor 𝟐
+𝒋−𝟏 o limite inferior, para a busca binária. Em casa 
+passo o algoritmo compara o valor da chave de pesquisa com o valor da 
+chave no atual índice de pesquisa. Se o elemento no índice atual é 
+menor do que a chave de busca, o algoritmo repete-se, pulando para o 
+próximo índice de pesquisa, duplicando o índice ao calcular a próxima 
+potência de 2. Se o elemento no índice atual é maior do que a chave de 
+busca, o algoritmo agora sabe que o valor a ser pesquisado está 
+localizado no intervalo formado pelo anterior índice de pesquisa 𝟐
+𝒋−𝟏
+, e 
+o atual índice de pesquisa 𝟐
+𝒋
+, caso este elemento estiver contido na lista. 
+A busca binária é realizada em seguida;
+	• Sair: o programa é fechado.
+
+
+
+Implement an array of 15 integer values with the following functionalities:
+• Ordered insertion: insertion must occur one element at a time, already in order. The program must handle insertion in case the array is already full. After inserting an element, the program must return to the options menu. The array must be distinct, meaning it must not contain duplicate elements;
+• Removal: the program must request a value to be removed. It must handle the case of removing from an empty array, and also if the requested value does not exist in the array;
+• Ternary search: similar to binary search, ternary search should divide the array into 3 groups at each verification, make the necessary comparisons, and determine in which group the searched value is located. The search ends when the element is found or not;
+• Exponential search: this algorithm consists of two phases. The first phase determines an interval where the value to be searched is located. The second phase performs a binary search within this interval. In the first phase, the algorithm looks for the exponent j, where the value 2^j is greater than the search key. This value 2^j becomes the upper limit, and 2^(j-1) the lower limit, for the binary search. At each step, the algorithm compares the search key with the current index's value. If the element at the current index is less than the search key, the algorithm repeats, jumping to the next index by doubling it to calculate the next power of 2. If the element at the current index is greater than the search key, the algorithm knows that the value to be searched is located within the interval formed by the previous index 2^(j-1) and the current index 2^j, if this element is contained in the list. The binary search is then performed;
+• Exit: the program closes.
+

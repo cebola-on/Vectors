@@ -1,0 +1,10 @@
+   Construa o jogo da velha. Tente construir com um mínimo de 
+representação visual do jogo com underlines e barras verticais simulando o 
+desenho do jogo. A entrada devem ser “X” (xis) e “0” (zeros). O programa 
+deve verificar se uma determinada linha, coluna ou diagonal apresenta 3 
+símbolos iguais. Quando apresentar 3 símbolos iguais numa linha, coluna ou 
+diagonal, o programa deve indicar qual símbolo é o vencedor.
+
+
+
+Build the tic-tac-toe game. Try to construct it with minimal visual representation using underlines and vertical bars to simulate the game layout. The inputs should be “X” (crosses) and “0” (noughts). The program must check if a particular row, column, or diagonal has 3 equal symbols. When there are 3 equal symbols in a row, column, or diagonal, the program must indicate which symbol is the winner.
