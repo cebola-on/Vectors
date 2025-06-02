@@ -75,10 +75,6 @@ Many **classic algorithms** are based on vector manipulation:
 
 ---
 
-
-
----
-
 ### O que é Programação de Vetores?
 
 Programação de vetores é uma técnica que consiste em utilizar estruturas de dados chamadas **vetores** (ou arrays) para armazenar e manipular **conjuntos de elementos do mesmo tipo** de maneira organizada e eficiente.
